@@ -55,6 +55,13 @@ module.exports = {
           "status": "pending",
           "view": "intake-process-review-collect-document-for-interview",
           "type": "manual"
+        },
+        {
+          "id": "submit-document",
+          "label": "Submit Document",
+          "status": "pending",
+          "view": "intake-process-review-submit-document",
+          "type": "manual"
         }
       ]
     },
