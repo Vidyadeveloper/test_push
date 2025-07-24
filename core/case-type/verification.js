@@ -24,6 +24,19 @@ module.exports = {
           "type": "manual"
         }
       ]
+    },
+    {
+      "id": "verification",
+      "label": "Verification",
+      "steps": [
+        {
+          "id": "approval",
+          "label": "Approval",
+          "status": "completed",
+          "view": "verification-verification-approval",
+          "type": "manual"
+        }
+      ]
     }
   ]
 };
