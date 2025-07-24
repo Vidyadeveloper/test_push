@@ -48,6 +48,13 @@ module.exports = {
           "label": "Review Details",
           "status": "under_review",
           "type": "manual"
+        },
+        {
+          "id": "collect-document-for-interview",
+          "label": "Collect Document For interview",
+          "status": "pending",
+          "view": "intake-process-review-collect-document-for-interview",
+          "type": "manual"
         }
       ]
     },
