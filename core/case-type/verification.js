@@ -15,6 +15,13 @@ module.exports = {
           "status": "pending",
           "view": "summary",
           "type": "manual"
+        },
+        {
+          "id": "onboarding",
+          "label": "Onboarding",
+          "status": "pending",
+          "view": "verification-stage-1-onboarding",
+          "type": "manual"
         }
       ]
     }
