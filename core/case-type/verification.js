@@ -35,6 +35,13 @@ module.exports = {
           "status": "completed",
           "view": "verification-verification-approval",
           "type": "manual"
+        },
+        {
+          "id": "onboarding",
+          "label": "Onboarding",
+          "status": "pending",
+          "view": "verification-verification-onboarding",
+          "type": "manual"
         }
       ]
     }
