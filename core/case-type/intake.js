@@ -15,13 +15,6 @@ module.exports = {
           "status": "in_progress",
           "view": "intake-registration-personal",
           "type": "manual"
-        },
-        {
-          "id": "relations",
-          "label": "Relations",
-          "status": "pending_validation",
-          "view": "intake-registration-relations",
-          "type": "manual"
         }
       ]
     },
