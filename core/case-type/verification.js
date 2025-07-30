@@ -22,6 +22,13 @@ module.exports = {
           "status": "pending",
           "view": "verification-stage-1-onboarding",
           "type": "manual"
+        },
+        {
+          "id": "document-collection-and-approval",
+          "label": "Document Collection and APProval",
+          "status": "pending",
+          "view": "verification-stage-1-document-collection-and-approval",
+          "type": "manual"
         }
       ]
     },
