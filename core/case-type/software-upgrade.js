@@ -24,6 +24,19 @@ module.exports = {
           "type": "manual"
         }
       ]
+    },
+    {
+      "id": "installaion",
+      "label": "Installaion",
+      "steps": [
+        {
+          "id": "installaion-approval",
+          "label": "Installaion approval",
+          "status": "completed",
+          "view": "software-upgrade-installaion-installaion-approval",
+          "type": "manual"
+        }
+      ]
     }
   ]
 };
