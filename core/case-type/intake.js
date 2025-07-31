@@ -15,6 +15,13 @@ module.exports = {
           "status": "in_progress",
           "view": "intake-registration-personal",
           "type": "manual"
+        },
+        {
+          "id": "relations",
+          "label": "Relations",
+          "status": "pending_validation",
+          "view": "intake-registration-relations",
+          "type": "manual"
         }
       ]
     },
@@ -26,13 +33,14 @@ module.exports = {
           "id": "review_details",
           "label": "Review Details",
           "status": "under_review",
+          "view": "intake-review-details",
           "type": "manual"
         },
         {
-          "id": "interview",
-          "label": "Interview",
-          "status": "pending",
-          "view": "intake-process-review-interview",
+          "id": "finalize_review",
+          "label": "Finalize Review",
+          "status": "review_completed",
+          "view": "intake-finalize-review",
           "type": "manual"
         }
       ]
@@ -45,13 +53,7 @@ module.exports = {
           "id": "close_case",
           "label": "Close Case",
           "status": "completed",
-          "type": "manual"
-        },
-        {
-          "id": "document-collection",
-          "label": "Document Collection",
-          "status": "completed",
-          "view": "intake-process-completion-document-collection",
+          "view": "intake-close-case",
           "type": "manual"
         }
       ]

@@ -2,7 +2,7 @@
 module.exports = {
   "caseType": {
     "id": "software-upgrade",
-    "label": "Software Upgrade"
+    "label": "Software upgrade"
   },
   "stages": [
     {
@@ -17,10 +17,10 @@ module.exports = {
           "type": "manual"
         },
         {
-          "id": "angular-13",
-          "label": "Angular 13",
-          "status": "completed",
-          "view": "software-upgrade-stage-1-angular-13",
+          "id": "install",
+          "label": "Install",
+          "status": "pending",
+          "view": "software-upgrade-stage-1-install",
           "type": "manual"
         }
       ]
