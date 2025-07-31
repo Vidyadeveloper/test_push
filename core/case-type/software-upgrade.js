@@ -35,6 +35,13 @@ module.exports = {
           "status": "completed",
           "view": "software-upgrade-installaion-installaion-approval",
           "type": "manual"
+        },
+        {
+          "id": "installation-verify",
+          "label": "Installation verify",
+          "status": "completed",
+          "view": "software-upgrade-installaion-installation-verify",
+          "type": "manual"
         }
       ]
     }
