@@ -49,6 +49,13 @@ module.exports = {
           "status": "pending",
           "view": "verification-verification-onboarding",
           "type": "manual"
+        },
+        {
+          "id": "mgr-review",
+          "label": "Mgr Review",
+          "status": "completed",
+          "view": "verification-verification-mgr-review",
+          "type": "manual"
         }
       ]
     }
