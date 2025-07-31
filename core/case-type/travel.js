@@ -22,6 +22,13 @@ module.exports = {
           "status": "completed",
           "view": "travel-stage-1-traval-docs",
           "type": "manual"
+        },
+        {
+          "id": "serach-",
+          "label": "Serach ",
+          "status": "completed",
+          "view": "travel-stage-1-serach",
+          "type": "manual"
         }
       ]
     }
