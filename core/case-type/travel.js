@@ -29,6 +29,13 @@ module.exports = {
           "status": "completed",
           "view": "travel-stage-1-serach",
           "type": "manual"
+        },
+        {
+          "id": "mgr-review",
+          "label": "Mgr Review",
+          "status": "completed",
+          "view": "travel-stage-1-mgr-review",
+          "type": "manual"
         }
       ]
     }
