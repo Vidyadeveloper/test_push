@@ -15,6 +15,13 @@ module.exports = {
           "status": "pending",
           "view": "summary",
           "type": "manual"
+        },
+        {
+          "id": "traval-docs",
+          "label": "Traval docs",
+          "status": "completed",
+          "view": "travel-stage-1-traval-docs",
+          "type": "manual"
         }
       ]
     }
